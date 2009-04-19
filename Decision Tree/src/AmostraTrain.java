@@ -14,8 +14,8 @@ public class AmostraTrain {
 	public AmostraTrain(String adress) {
 		readDataMining( adress , this );
 	}
-	
-	public void  printOut(){
+
+	public void printOut(){
 		System.out.println("\nHEAD");
 		
 		for (Atributo atributo : atributos) {

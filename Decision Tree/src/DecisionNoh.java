@@ -82,4 +82,19 @@ public class DecisionNoh {
 	public DecisionNoh[] getNohs() {
 		return nohs;
 	}
+
+	public DecisionNoh getNoh(String valor) {
+		DecisionNoh result = null;
+		for(int i=0; i< nohs.length; i++) {
+			if(nohs[i].getNomeRamo().equals(valor)) {
+				result = nohs[i]; 
+				break;
+			}
+		}
+		return result;
+	}
+
+	public boolean isFolha() {
+		return (nohs == null) || (nohs.length == 0);
+	}
 }

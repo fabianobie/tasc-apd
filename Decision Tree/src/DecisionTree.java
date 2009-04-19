@@ -24,8 +24,8 @@ public class DecisionTree {
 		Atributo[] atributos = train.getAtributos();
 		Classificado aClass = new Classificado();
 		aClass = classifica(atributos, instancias);
-		double entropia = DecisionUtil.entropy(DecisionUtil.getInstacias(
-				instancias, train.getTuplas()));
+		double entropia = DecisionUtil.entropy(DecisionUtil.getInstacias(instancias, train
+				.getTuplas()));
 		/*
 		 * considerações iniciais
 		 */
@@ -48,8 +48,7 @@ public class DecisionTree {
 					DecisionNoh[] nohsFilho = new DecisionNoh[valorAtrib.size()];
 					int count = 0;
 					for (String vlrAtrib : valorAtrib) {
-						conjInstancia = splitInstancias(instancias, nome,
-								vlrAtrib);
+						conjInstancia = splitInstancias(instancias, nome, vlrAtrib);
 						nohsFilho[count] = criaNoh(conjInstancia, vlrAtrib);
 						count++;
 					}
@@ -113,17 +112,15 @@ public class DecisionTree {
 			} else {
 				resposta = Resposta.NAO;
 			}
-		}else{
+		} else {
 			resposta = Resposta.NAO;
 		}
 		return resposta;
 	}
 
-	private String[] splitInstancias(String[] instanciaAtual, String atributo,
-			String vlrAtributo) {
+	private String[] splitInstancias(String[] instanciaAtual, String atributo, String vlrAtributo) {
 		ArrayList<String> res = new ArrayList<String>();
-		String[][] dados = DecisionUtil.getInstacias(instanciaAtual, train
-				.getTuplas());
+		String[][] dados = DecisionUtil.getInstacias(instanciaAtual, train.getTuplas());
 		boolean flag = true;
 
 		res.add(dados[0][0]);
@@ -145,8 +142,7 @@ public class DecisionTree {
 
 	private Classificado classifica(Atributo[] atributos, String[] instancias) {
 		double[] ganho = new double[atributos.length];
-		String[][] tuplas = DecisionUtil.getInstacias(instancias, train
-				.getTuplas());
+		String[][] tuplas = DecisionUtil.getInstacias(instancias, train.getTuplas());
 		Classificado aClass = new Classificado();
 
 		for (int i = 0; i < atributos.length; i++) {
@@ -168,4 +164,17 @@ public class DecisionTree {
 		return aClass;
 	}
 
+	public Resposta responder(Pergunta pergunta) {
+		DecisionNoh no = raiz;
+		String atributo = no.getNomeAtributo();
+		String valor = pergunta.getAtributo(atributo);
+
+		while(!no.isFolha()) {
+			no = no.getNoh(valor);
+			atributo = no.getNomeAtributo();
+			valor = pergunta.getAtributo(atributo);
+		}
+
+		return no.getResposta();
+	}
 }
