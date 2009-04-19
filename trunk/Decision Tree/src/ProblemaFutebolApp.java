@@ -38,7 +38,6 @@ public class ProblemaFutebolApp {
 		pergunta.setAtributo(TIME2, "Vasco/RJ");
 		pergunta.setAtributo(RENDIMENTO, "Fantastico");
 		pergunta.setAtributo(PARTIDA, "inicio");
-		pergunta.setAtributo(DIF_GOLS, "pouca-");
 		
 		List<Pergunta> perguntas = new LinkedList<Pergunta>();
 		perguntas.add(pergunta);
