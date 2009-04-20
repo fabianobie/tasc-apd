@@ -84,7 +84,7 @@ public class DecisionNoh {
 	}
 
 	public DecisionNoh getNoh(String valor) {
-		DecisionNoh result = null;
+		DecisionNoh result = getNohVazio();
 		for(int i=0; i< nohs.length; i++) {
 			if(nohs[i].getNomeRamo().equals(valor)) {
 				result = nohs[i]; 
@@ -96,5 +96,12 @@ public class DecisionNoh {
 
 	public boolean isFolha() {
 		return (nohs == null) || (nohs.length == 0);
+	}
+	
+	public DecisionNoh getNohVazio(){
+		DecisionNoh noh = new DecisionNoh();
+		noh.setNomeAtributo("");
+		noh.setNomeRamo("sem resposta");
+		return noh;
 	}
 }
