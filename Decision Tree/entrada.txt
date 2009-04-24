@@ -1,382 +1,382 @@
-381 6
-inst time_1 time_2 tempo_partida rendimento resultado
-1 America/RN Vasco/RJ inicio Ruim false
-2 America/RN Figueirense/SC inicio Ruim false
-3 America/RN Corinthians/SP inicio Ruim false
-4 America/RN Fluminense/RJ inicio Ruim false
-5 America/RN Goias/GO semi Ruim false
-6 America/RN Internacional/RS semi Ruim false
-7 America/RN Atletico/PR semi Ruim true
-8 America/RN SaoPaulo/SP semi Ruim false
-9 America/RN Nautico/PE meio Ruim false
-10 America/RN Cruzeiro/MG meio Ruim false
-11 America/RN Santos/SP meio Ruim false
-12 America/RN Juventude/RS semi-final Ruim false
-13 America/RN Sport/PE semi-final Ruim false
-14 America/RN Palmeiras/SP semi-final Ruim false
-15 America/RN Parana/PR semi-final Ruim true
-16 America/RN Atletico/MG final Ruim false
-17 America/RN Flamengo/RJ final Ruim false
-18 America/RN Botafogo/RJ final Ruim false
-19 America/RN Gremio/RS final Ruim false
-20 Atletico/MG Nautico/PE inicio Fantastico true
-21 Atletico/MG Atletico/PR inicio Bom false
-22 Atletico/MG Figueirense/SC inicio Otimo true
-23 Atletico/MG Flamengo/RJ inicio Bom false
-24 Atletico/MG Gremio/RS semi Bom false
-25 Atletico/MG America/RN semi Bom true
-26 Atletico/MG Fluminense/RJ semi Bom true
-27 Atletico/MG Santos/SP meio Bom false
-28 Atletico/MG Palmeiras/SP meio Bom false
-29 Atletico/MG Botafogo/RJ meio Bom false
-30 Atletico/MG Corinthians/SP meio Bom true
-31 Atletico/MG SaoPaulo/SP semi-final Bom false
-32 Atletico/MG Cruzeiro/MG semi-final Regular false
-33 Atletico/MG Internacional/RS semi-final Regular false
-34 Atletico/MG Sport/PE semi-final Bom true
-35 Atletico/MG Vasco/RJ final Bom true
-36 Atletico/MG Parana/PR final Bom false
-37 Atletico/MG Juventude/RS final Bom true
-38 Atletico/MG Goias/GO final Bom true
-39 Atletico/PR Internacional/RS inicio Fantastico true
-40 Atletico/PR Santos/SP inicio Bom false
-41 Atletico/PR Goias/GO inicio Regular false
-42 Atletico/PR Fluminense/RJ inicio Regular false
-43 Atletico/PR Nautico/PE semi Regular false
-44 Atletico/PR Juventude/RS semi Regular true
-45 Atletico/PR Flamengo/RJ semi Bom true
-46 Atletico/PR Cruzeiro/MG semi Regular false
-47 Atletico/PR Corinthians/SP semi Regular false
-48 Atletico/PR Figueirense/SC meio Regular false
-49 Atletico/PR Atletico/MG semi-final Regular true
-50 Atletico/PR Palmeiras/SP semi-final Bom true
-51 Atletico/PR Parana/PR semi-final Bom true
-52 Atletico/PR Vasco/RJ semi-final Bom true
-53 Atletico/PR Botafogo/RJ semi-final Bom true
-54 Atletico/PR America/RN final Bom true
-55 Atletico/PR Gremio/RS final Bom true
-56 Atletico/PR Sport/PE final Bom false
-57 Atletico/PR SaoPaulo/SP final Bom true
-58 Botafogo/RJ Atletico/MG inicio Fantastico true
-59 Botafogo/RJ Gremio/RS inicio Fantastico true
-60 Botafogo/RJ Nautico/PE inicio Fantastico true
-61 Botafogo/RJ Vasco/RJ inicio Fantastico true
-62 Botafogo/RJ Atletico/PR semi Fantastico true
-63 Botafogo/RJ Juventude/RS semi Fantastico true
-64 Botafogo/RJ America/RN semi Fantastico true
-65 Botafogo/RJ SaoPaulo/SP meio Fantastico false
-66 Botafogo/RJ Corinthians/SP meio Otimo false
-67 Botafogo/RJ Internacional/RS meio Otimo false
-68 Botafogo/RJ Flamengo/RJ meio Otimo false
-69 Botafogo/RJ Palmeiras/SP semi-final Bom false
-70 Botafogo/RJ Fluminense/RJ semi-final Bom false
-71 Botafogo/RJ Goias/GO semi-final Bom false
-72 Botafogo/RJ Santos/SP semi-final Bom false
-73 Botafogo/RJ Sport/PE final Bom true
-74 Botafogo/RJ Cruzeiro/MG final Bom true
-75 Botafogo/RJ Parana/PR final Bom true
-76 Botafogo/RJ Figueirense/SC final Bom false
-77 Corinthians/SP Juventude/RS inicio Fantastico true
-78 Corinthians/SP Atletico/MG inicio Bom false
-79 Corinthians/SP Parana/PR inicio Regular false
-80 Corinthians/SP Palmeiras/SP inicio Regular false
-81 Corinthians/SP Fluminense/RJ semi Regular false
-82 Corinthians/SP SaoPaulo/SP semi Ruim false
-83 Corinthians/SP Nautico/PE semi Ruim false
-84 Corinthians/SP Flamengo/RJ semi Ruim false
-85 Corinthians/SP Goias/GO meio Regular true
-86 Corinthians/SP Gremio/RS meio Regular true
-87 Corinthians/SP Cruzeiro/MG meio Regular false
-88 Corinthians/SP Santos/SP semi-final Regular true
-89 Corinthians/SP America/RN semi-final Regular true
-90 Corinthians/SP Botafogo/RJ semi-final Regular false
-91 Corinthians/SP Sport/PE semi-final Regular false
-92 Corinthians/SP Internacional/RS final Regular false
-93 Corinthians/SP Figueirense/SC final Regular true
-94 Corinthians/SP Atletico/PR final Regular false
-95 Corinthians/SP Vasco/RJ final Regular false
-96 Cruzeiro/MG Corinthians/SP inicio Ruim false
-97 Cruzeiro/MG Parana/PR inicio Ruim false
-98 Cruzeiro/MG Juventude/RS inicio Ruim false
-99 Cruzeiro/MG Atletico/MG inicio Regular true
-100 Cruzeiro/MG Vasco/RJ semi Bom true
-101 Cruzeiro/MG Goias/GO semi Bom true
-102 Cruzeiro/MG SaoPaulo/SP semi Bom false
-103 Cruzeiro/MG Botafogo/RJ semi Bom true
-104 Cruzeiro/MG Internacional/RS meio Bom true
-105 Cruzeiro/MG Sport/PE meio Otimo true
-106 Cruzeiro/MG Fluminense/RJ meio Otimo true
-107 Cruzeiro/MG Palmeiras/SP meio Otimo true
-108 Cruzeiro/MG Gremio/RS semi-final Otimo true
-109 Cruzeiro/MG Figueirense/SC semi-final Otimo false
-110 Cruzeiro/MG Santos/SP semi-final Otimo false
-111 Cruzeiro/MG Nautico/PE final Bom false
-112 Cruzeiro/MG Atletico/PR final Bom false
-113 Cruzeiro/MG Flamengo/RJ final Bom true
-114 Cruzeiro/MG America/RN final Bom true
-115 Figueirense/SC Atletico/PR inicio Ruim false
-116 Figueirense/SC Goias/GO inicio Bom true
-117 Figueirense/SC Flamengo/RJ inicio Otimo true
-118 Figueirense/SC SaoPaulo/SP semi Bom false
-119 Figueirense/SC Cruzeiro/MG semi Otimo true
-120 Figueirense/SC Sport/PE semi Bom false
-121 Figueirense/SC Corinthians/SP semi Bom false
-122 Figueirense/SC Gremio/RS meio Bom true
-123 Figueirense/SC Botafogo/RJ meio Bom false
-124 Figueirense/SC Palmeiras/SP meio Bom false
-125 Figueirense/SC America/RN meio Bom true
-126 Figueirense/SC Atletico/MG semi-final Bom true
-127 Figueirense/SC Juventude/RS semi-final Bom true
-128 Figueirense/SC Internacional/RS semi-final Bom false
-129 Figueirense/SC Parana/PR semi-final Bom true
-130 Figueirense/SC Santos/SP final Bom true
-131 Figueirense/SC Fluminense/RJ final Bom false
-132 Figueirense/SC Vasco/RJ final Bom false
-133 Figueirense/SC Nautico/PE final Bom true
-134 Flamengo/RJ Palmeiras/SP inicio Ruim false
-135 Flamengo/RJ Botafogo/RJ inicio Ruim false
-136 Flamengo/RJ Internacional/RS inicio Ruim false
-137 Flamengo/RJ Parana/PR semi Ruim false
-138 Flamengo/RJ America/RN semi Regular true
-139 Flamengo/RJ Nautico/PE semi Regular true
-140 Flamengo/RJ Juventude/RS meio Bom true
-141 Flamengo/RJ Goias/GO meio Bom true
-142 Flamengo/RJ Sport/PE meio Bom false
-143 Flamengo/RJ Figueirense/SC meio Bom true
-144 Flamengo/RJ Cruzeiro/MG semi-final Bom true
-145 Flamengo/RJ Vasco/RJ semi-final Bom false
-146 Flamengo/RJ Atletico/MG semi-final Bom true
-147 Flamengo/RJ SaoPaulo/SP semi-final Bom true
-148 Flamengo/RJ Fluminense/RJ semi-final Bom false
-149 Flamengo/RJ Gremio/RS final Bom true
-150 Flamengo/RJ Corinthians/SP final Bom true
-151 Flamengo/RJ Santos/SP final Otimo true
-152 Flamengo/RJ Atletico/PR final Otimo true
-153 Fluminense/RJ Cruzeiro/MG inicio Ruim false
-154 Fluminense/RJ Internacional/RS inicio Bom true
-155 Fluminense/RJ Sport/PE inicio Otimo true
-156 Fluminense/RJ Botafogo/RJ semi Bom false
-157 Fluminense/RJ Parana/PR semi Bom false
-158 Fluminense/RJ Goias/GO semi Bom true
-159 Fluminense/RJ Figueirense/SC semi Bom false
-160 Fluminense/RJ Palmeiras/SP meio Regular false
-161 Fluminense/RJ Flamengo/RJ meio Regular false
-162 Fluminense/RJ Santos/SP meio Bom true
-163 Fluminense/RJ Gremio/RS meio Regular false
-164 Fluminense/RJ Vasco/RJ meio Regular false
-165 Fluminense/RJ Atletico/PR semi-final Regular true
-166 Fluminense/RJ America/RN semi-final Bom true
-167 Fluminense/RJ Corinthians/SP semi-final Bom false
-168 Fluminense/RJ SaoPaulo/SP final Regular false
-169 Fluminense/RJ Atletico/MG final Regular false
-170 Fluminense/RJ Nautico/PE final Regular true
-171 Fluminense/RJ Juventude/RS final Bom true
-172 Goias/GO Flamengo/RJ inicio Ruim false
-173 Goias/GO Juventude/RS inicio Bom true
-174 Goias/GO Palmeiras/SP inicio Otimo true
-175 Goias/GO Botafogo/RJ semi Bom false
-176 Goias/GO Sport/PE semi Otimo true
-177 Goias/GO Gremio/RS semi Bom false
-178 Goias/GO Santos/SP semi Bom true
-179 Goias/GO Parana/PR meio Otimo true
-180 Goias/GO Atletico/MG meio Otimo true
-181 Goias/GO SaoPaulo/SP meio Otimo false
-182 Goias/GO Figueirense/SC semi-final Otimo true
-183 Goias/GO Atletico/PR semi-final Bom false
-184 Goias/GO Nautico/PE semi-final Bom false
-185 Goias/GO America/RN semi-final Bom false
-186 Goias/GO Cruzeiro/MG semi-final Bom false
-187 Goias/GO Fluminense/RJ final Bom true
-188 Goias/GO Vasco/RJ final Bom false
-189 Goias/GO Corinthians/SP final Bom false
-190 Goias/GO Internacional/RS final Bom true
-191 Gremio/RS Fluminense/RJ inicio Fantastico true
-192 Gremio/RS Sport/PE inicio Fantastico true
-193 Gremio/RS Cruzeiro/MG inicio Otimo false
-194 Gremio/RS Juventude/RS semi Otimo true
-195 Gremio/RS Flamengo/RJ semi Fantastico true
-196 Gremio/RS Palmeiras/SP semi Otimo false
-197 Gremio/RS Atletico/PR semi Bom false
-198 Gremio/RS SaoPaulo/SP meio Bom false
-199 Gremio/RS America/RN meio Bom true
-200 Gremio/RS Parana/PR meio Otimo true
-201 Gremio/RS Botafogo/RJ semi-final Otimo true
-202 Gremio/RS Vasco/RJ semi-final Otimo true
-203 Gremio/RS Internacional/RS semi-final Otimo true
-204 Gremio/RS Santos/SP semi-final Otimo true
-205 Gremio/RS Atletico/MG semi-final Otimo false
-206 Gremio/RS Goias/GO final Otimo true
-207 Gremio/RS Nautico/PE final Otimo true
-208 Gremio/RS Figueirense/SC final Otimo false
-209 Gremio/RS Corinthians/SP final Otimo false
-210 Internacional/RS Botafogo/RJ inicio Ruim false
-211 Internacional/RS Nautico/PE inicio Bom true
-212 Internacional/RS Santos/SP inicio Otimo true
-213 Internacional/RS Gremio/RS inicio Bom false
-214 Internacional/RS Atletico/MG semi Bom false
-215 Internacional/RS Figueirense/SC semi Bom true
-216 Internacional/RS Corinthians/SP semi Bom true
-217 Internacional/RS Parana/PR semi Otimo true
-218 Internacional/RS Vasco/RJ semi Bom false
-219 Internacional/RS Goias/GO meio Otimo true
-220 Internacional/RS Atletico/PR meio Otimo true
-221 Internacional/RS Fluminense/RJ meio Bom false
-222 Internacional/RS Flamengo/RJ semi-final Otimo true
-223 Internacional/RS SaoPaulo/SP semi-final Bom false
-224 Internacional/RS America/RN semi-final Otimo true
-225 Internacional/RS Juventude/RS final Otimo true
-226 Internacional/RS Sport/PE final Bom false
-227 Internacional/RS Cruzeiro/MG final Otimo true
-228 Internacional/RS Palmeiras/SP final Otimo true
-229 Juventude/RS Parana/PR inicio Ruim false
-230 Juventude/RS America/RN inicio Bom true
-231 Juventude/RS Santos/SP inicio Regular false
-232 Juventude/RS Figueirense/SC inicio Regular false
-233 Juventude/RS Vasco/RJ semi Bom true
-234 Juventude/RS Nautico/PE semi Regular false
-235 Juventude/RS Internacional/RS semi Bom true
-236 Juventude/RS Palmeiras/SP semi Regular false
-237 Juventude/RS Atletico/MG meio Regular false
-238 Juventude/RS Fluminense/RJ meio Regular false
-239 Juventude/RS Corinthians/SP meio Regular false
-240 Juventude/RS Goias/GO meio Regular false
-241 Juventude/RS Cruzeiro/MG semi-final Regular true
-242 Juventude/RS Flamengo/RJ semi-final Regular false
-243 Juventude/RS Gremio/RS semi-final Regular false
-244 Juventude/RS Atletico/PR final Regular false
-245 Juventude/RS Botafogo/RJ final Regular false
-246 Juventude/RS SaoPaulo/SP final Regular true
-247 Juventude/RS Sport/PE final Regular true
-248 Nautico/PE SaoPaulo/SP inicio Fantastico true
-249 Nautico/PE Vasco/RJ inicio Bom false
-250 Nautico/PE Parana/PR inicio Regular false
-251 Nautico/PE Goias/GO inicio Regular false
-252 Nautico/PE Palmeiras/SP semi Regular false
-253 Nautico/PE Cruzeiro/MG semi Ruim false
-254 Nautico/PE Gremio/RS semi Ruim false
-255 Nautico/PE Fluminense/RJ semi Ruim false
-256 Nautico/PE Figueirense/SC meio Regular true
-257 Nautico/PE Atletico/MG meio Regular false
-258 Nautico/PE Internacional/RS semi-final Ruim false
-259 Nautico/PE Botafogo/RJ semi-final Regular true
-260 Nautico/PE Sport/PE semi-final Regular true
-261 Nautico/PE Atletico/PR semi-final Regular true
-262 Nautico/PE Juventude/RS semi-final Bom true
-263 Nautico/PE Corinthians/SP final Bom true
-264 Nautico/PE Santos/SP final Bom false
-265 Nautico/PE America/RN final Bom true
-266 Nautico/PE Flamengo/RJ final Bom true
-267 Palmeiras/SP Figueirense/SC inicio Fantastico true
-268 Palmeiras/SP Cruzeiro/MG inicio Bom false
-269 Palmeiras/SP Botafogo/RJ inicio Regular false
-270 Palmeiras/SP Atletico/PR inicio Regular false
-271 Palmeiras/SP America/RN semi Bom true
-272 Palmeiras/SP Santos/SP semi Regular false
-273 Palmeiras/SP Vasco/RJ semi Bom true
-274 Palmeiras/SP Sport/PE meio Regular false
-275 Palmeiras/SP Flamengo/RJ meio Bom true
-276 Palmeiras/SP Internacional/RS meio Bom false
-277 Palmeiras/SP SaoPaulo/SP meio Regular false
-278 Palmeiras/SP Goias/GO semi-final Bom true
-279 Palmeiras/SP Corinthians/SP semi-final Bom true
-280 Palmeiras/SP Nautico/PE semi-final Bom true
-281 Palmeiras/SP Gremio/RS semi-final Bom true
-282 Palmeiras/SP Parana/PR final Bom true
-283 Palmeiras/SP Juventude/RS final Bom false
-284 Palmeiras/SP Fluminense/RJ final Bom true
-285 Palmeiras/SP Atletico/MG final Bom false
-286 Parana/PR Gremio/RS inicio Fantastico true
-287 Parana/PR SaoPaulo/SP inicio Bom false
-288 Parana/PR Sport/PE inicio Otimo true
-289 Parana/PR Atletico/PR semi Bom false
-290 Parana/PR America/RN semi Bom false
-291 Parana/PR Figueirense/SC semi Regular false
-292 Parana/PR Palmeiras/SP semi Bom true
-293 Parana/PR Atletico/MG semi Regular false
-294 Parana/PR Botafogo/RJ meio Regular false
-295 Parana/PR Vasco/RJ meio Regular false
-296 Parana/PR Cruzeiro/MG meio Regular false
-297 Parana/PR Juventude/RS meio Regular true
-298 Parana/PR Nautico/PE semi-final Regular false
-299 Parana/PR Corinthians/SP semi-final Regular true
-300 Parana/PR Fluminense/RJ semi-final Bom true
-301 Parana/PR Flamengo/RJ semi-final Regular false
-302 Parana/PR Internacional/RS final Bom true
-303 Parana/PR Goias/GO final Bom true
-304 Parana/PR Santos/SP final Bom false
-305 Santos/SP America/RN inicio Ruim false
-306 Santos/SP Corinthians/SP inicio Ruim false
-307 Santos/SP SaoPaulo/SP inicio Ruim false
-308 Santos/SP Gremio/RS semi Ruim false
-309 Santos/SP Cruzeiro/MG semi Regular true
-310 Santos/SP Botafogo/RJ semi Regular true
-311 Santos/SP Flamengo/RJ semi Bom true
-312 Santos/SP Figueirense/SC semi Bom true
-313 Santos/SP Nautico/PE semi Bom false
-314 Santos/SP Parana/PR meio Bom true
-315 Santos/SP Sport/PE meio Bom true
-316 Santos/SP Atletico/PR meio Bom true
-317 Santos/SP Internacional/RS semi-final Otimo true
-318 Santos/SP Juventude/RS semi-final Otimo true
-319 Santos/SP Vasco/RJ semi-final Otimo true
-320 Santos/SP Palmeiras/SP final Otimo false
-321 Santos/SP Goias/GO final Otimo true
-322 Santos/SP Atletico/MG final Otimo false
-323 Santos/SP Fluminense/RJ final Bom false
-324 SaoPaulo/SP Goias/GO inicio Fantastico true
-325 SaoPaulo/SP Palmeiras/SP inicio Bom false
-326 SaoPaulo/SP Atletico/MG inicio Regular false
-327 SaoPaulo/SP Vasco/RJ inicio Bom true
-328 SaoPaulo/SP Flamengo/RJ semi Bom false
-329 SaoPaulo/SP Internacional/RS semi Bom true
-330 SaoPaulo/SP Fluminense/RJ semi Bom false
-331 SaoPaulo/SP Sport/PE semi Bom true
-332 SaoPaulo/SP Juventude/RS semi Bom true
-333 SaoPaulo/SP Atletico/PR meio Otimo true
-334 SaoPaulo/SP Nautico/PE meio Otimo true
-335 SaoPaulo/SP Parana/PR semi-final Otimo true
-336 SaoPaulo/SP Santos/SP semi-final Otimo true
-337 SaoPaulo/SP Figueirense/SC semi-final Otimo true
-338 SaoPaulo/SP Corinthians/SP semi-final Otimo false
-339 SaoPaulo/SP Cruzeiro/MG final Otimo true
-340 SaoPaulo/SP America/RN final Otimo true
-341 SaoPaulo/SP Gremio/RS final Otimo true
-342 SaoPaulo/SP Botafogo/RJ final Otimo false
-343 Sport/PE Santos/SP inicio Fantastico true
-344 Sport/PE Flamengo/RJ inicio Bom false
-345 Sport/PE America/RN inicio Regular false
-346 Sport/PE Corinthians/SP semi Bom true
-347 Sport/PE Nautico/PE semi Otimo true
-348 Sport/PE Atletico/MG semi Otimo true
-349 Sport/PE Botafogo/RJ semi Bom false
-350 Sport/PE Internacional/RS semi Bom false
-351 Sport/PE Atletico/PR meio Bom true
-352 Sport/PE Juventude/RS meio Otimo true
-353 Sport/PE Vasco/RJ meio Bom false
-354 Sport/PE Gremio/RS meio Bom true
-355 Sport/PE Fluminense/RJ semi-final Bom false
-356 Sport/PE Parana/PR semi-final Bom true
-357 Sport/PE Goias/GO semi-final Otimo true
-358 Sport/PE Figueirense/SC final Bom false
-359 Sport/PE SaoPaulo/SP final Bom false
-360 Sport/PE Palmeiras/SP final Bom true
-361 Sport/PE Cruzeiro/MG final Bom true
-362 Vasco/RJ Sport/PE inicio Fantastico true
-363 Vasco/RJ Fluminense/RJ inicio Bom false
-364 Vasco/RJ Gremio/RS inicio Otimo true
-365 Vasco/RJ Santos/SP semi Otimo true
-366 Vasco/RJ Atletico/PR semi Fantastico true
-367 Vasco/RJ Atletico/MG semi Fantastico true
-368 Vasco/RJ Goias/GO semi Fantastico true
-369 Vasco/RJ Figueirense/SC meio Otimo false
-370 Vasco/RJ Corinthians/SP meio Otimo true
-371 Vasco/RJ America/RN meio Fantastico true
-372 Vasco/RJ Nautico/PE meio Fantastico true
-373 Vasco/RJ SaoPaulo/SP semi-final Otimo false
-374 Vasco/RJ Cruzeiro/MG semi-final Otimo false
-375 Vasco/RJ Juventude/RS semi-final Otimo false
-376 Vasco/RJ Botafogo/RJ semi-final Otimo true
-377 Vasco/RJ Flamengo/RJ final Otimo false
-378 Vasco/RJ Palmeiras/SP final Bom false
-379 Vasco/RJ Internacional/RS final Bom false
-380 Vasco/RJ Parana/PR final Bom true
+381 7
+INST TIME1 TIME2 PARTIDA REND1 REND2 RESULT
+1 America/RN Atletico/MG final Ruim Bom false
+2 America/RN Botafogo/RJ final Ruim Otimo false
+3 America/RN Flamengo/RJ final Ruim Otimo false
+4 America/RN Gremio/RS final Ruim Bom false
+5 America/RN Corinthians/SP inicio Ruim Fantastico false
+6 America/RN Figueirense/SC inicio Ruim Bom false
+7 America/RN Fluminense/RJ inicio Ruim Otimo false
+8 America/RN Vasco/RJ inicio Ruim Fantastico false
+9 America/RN Cruzeiro/MG meio Ruim Otimo false
+10 America/RN Nautico/PE meio Ruim Bom false
+11 America/RN Santos/SP meio Ruim Bom false
+12 America/RN Atletico/PR semi Ruim Bom true
+13 America/RN Goias/GO semi Ruim Otimo false
+14 America/RN Internacional/RS semi Ruim Regular false
+15 America/RN SaoPaulo/SP semi Ruim Otimo false
+16 America/RN Juventude/RS semi-final Ruim Ruim false
+17 America/RN Palmeiras/SP semi-final Ruim Otimo false
+18 America/RN Parana/PR semi-final Ruim Bom true
+19 America/RN Sport/PE semi-final Ruim Regular false
+20 Atletico/MG Goias/GO final Bom Regular true
+21 Atletico/MG Juventude/RS final Bom Regular true
+22 Atletico/MG Parana/PR final Bom Bom false
+23 Atletico/MG Vasco/RJ final Bom Bom true
+24 Atletico/MG Atletico/PR inicio Bom Fantastico false
+25 Atletico/MG Figueirense/SC inicio Otimo Regular true
+26 Atletico/MG Flamengo/RJ inicio Bom Otimo false
+27 Atletico/MG Nautico/PE inicio Fantastico Ruim true
+28 Atletico/MG Botafogo/RJ meio Bom Fantastico false
+29 Atletico/MG Corinthians/SP meio Bom Otimo true
+30 Atletico/MG Palmeiras/SP meio Bom Fantastico false
+31 Atletico/MG Santos/SP meio Bom Bom false
+32 Atletico/MG America/RN semi Bom Bom true
+33 Atletico/MG Fluminense/RJ semi Bom Otimo true
+34 Atletico/MG Gremio/RS semi Bom Otimo false
+35 Atletico/MG Cruzeiro/MG semi-final Regular Otimo false
+36 Atletico/MG Internacional/RS semi-final Regular Bom false
+37 Atletico/MG SaoPaulo/SP semi-final Bom Fantastico false
+38 Atletico/MG Sport/PE semi-final Bom Regular true
+39 Atletico/PR America/RN final Bom Regular true
+40 Atletico/PR Gremio/RS final Bom Bom true
+41 Atletico/PR SaoPaulo/SP final Bom Otimo true
+42 Atletico/PR Sport/PE final Bom Regular false
+43 Atletico/PR Fluminense/RJ inicio Regular Bom false
+44 Atletico/PR Goias/GO inicio Regular Regular false
+45 Atletico/PR Internacional/RS inicio Fantastico Ruim true
+46 Atletico/PR Santos/SP inicio Bom Bom false
+47 Atletico/PR Figueirense/SC meio Regular Otimo false
+48 Atletico/PR Corinthians/SP semi Regular Bom false
+49 Atletico/PR Cruzeiro/MG semi Regular Otimo false
+50 Atletico/PR Flamengo/RJ semi Bom Otimo true
+51 Atletico/PR Juventude/RS semi Regular Ruim true
+52 Atletico/PR Nautico/PE semi Regular Regular false
+53 Atletico/PR Atletico/MG semi-final Regular Bom true
+54 Atletico/PR Botafogo/RJ semi-final Bom Otimo true
+55 Atletico/PR Palmeiras/SP semi-final Bom Fantastico true
+56 Atletico/PR Parana/PR semi-final Bom Bom true
+57 Atletico/PR Vasco/RJ semi-final Bom Bom true
+58 Botafogo/RJ Cruzeiro/MG final Bom Otimo true
+59 Botafogo/RJ Figueirense/SC final Bom Bom false
+60 Botafogo/RJ Parana/PR final Bom Regular true
+61 Botafogo/RJ Sport/PE final Bom Regular true
+62 Botafogo/RJ Atletico/MG inicio Fantastico Ruim true
+63 Botafogo/RJ Gremio/RS inicio Fantastico Ruim true
+64 Botafogo/RJ Nautico/PE inicio Fantastico Ruim true
+65 Botafogo/RJ Vasco/RJ inicio Fantastico Bom true
+66 Botafogo/RJ Corinthians/SP meio Otimo Otimo false
+67 Botafogo/RJ Flamengo/RJ meio Otimo Otimo false
+68 Botafogo/RJ Internacional/RS meio Otimo Bom false
+69 Botafogo/RJ SaoPaulo/SP meio Fantastico Fantastico false
+70 Botafogo/RJ America/RN semi Fantastico Bom true
+71 Botafogo/RJ Atletico/PR semi Fantastico Fantastico true
+72 Botafogo/RJ Juventude/RS semi Fantastico Ruim true
+73 Botafogo/RJ Fluminense/RJ semi-final Bom Otimo false
+74 Botafogo/RJ Goias/GO semi-final Bom Regular false
+75 Botafogo/RJ Palmeiras/SP semi-final Bom Fantastico false
+76 Botafogo/RJ Santos/SP semi-final Bom Bom false
+77 Corinthians/SP Atletico/PR final Regular Bom false
+78 Corinthians/SP Figueirense/SC final Regular Bom true
+79 Corinthians/SP Internacional/RS final Regular Bom false
+80 Corinthians/SP Vasco/RJ final Regular Bom false
+81 Corinthians/SP Atletico/MG inicio Bom Bom false
+82 Corinthians/SP Juventude/RS inicio Fantastico Ruim true
+83 Corinthians/SP Palmeiras/SP inicio Regular Otimo false
+84 Corinthians/SP Parana/PR inicio Regular Fantastico false
+85 Corinthians/SP Cruzeiro/MG meio Regular Otimo false
+86 Corinthians/SP Goias/GO meio Regular Regular true
+87 Corinthians/SP Gremio/RS meio Regular Bom true
+88 Corinthians/SP Flamengo/RJ semi Ruim Otimo false
+89 Corinthians/SP Fluminense/RJ semi Regular Fantastico false
+90 Corinthians/SP Nautico/PE semi Ruim Bom false
+91 Corinthians/SP SaoPaulo/SP semi Ruim Otimo false
+92 Corinthians/SP America/RN semi-final Regular Regular true
+93 Corinthians/SP Botafogo/RJ semi-final Regular Otimo false
+94 Corinthians/SP Santos/SP semi-final Regular Bom true
+95 Corinthians/SP Sport/PE semi-final Regular Regular false
+96 Cruzeiro/MG America/RN final Bom Regular true
+97 Cruzeiro/MG Atletico/PR final Bom Bom false
+98 Cruzeiro/MG Flamengo/RJ final Bom Otimo true
+99 Cruzeiro/MG Nautico/PE final Bom Bom false
+100 Cruzeiro/MG Atletico/MG inicio Regular Bom true
+101 Cruzeiro/MG Corinthians/SP inicio Ruim Fantastico false
+102 Cruzeiro/MG Juventude/RS inicio Ruim Regular false
+103 Cruzeiro/MG Parana/PR inicio Ruim Fantastico false
+104 Cruzeiro/MG Fluminense/RJ meio Otimo Otimo true
+105 Cruzeiro/MG Internacional/RS meio Bom Regular true
+106 Cruzeiro/MG Palmeiras/SP meio Otimo Otimo true
+107 Cruzeiro/MG Sport/PE meio Otimo Regular true
+108 Cruzeiro/MG Botafogo/RJ semi Bom Otimo true
+109 Cruzeiro/MG Goias/GO semi Bom Bom true
+110 Cruzeiro/MG SaoPaulo/SP semi Bom Otimo false
+111 Cruzeiro/MG Vasco/RJ semi Bom Bom true
+112 Cruzeiro/MG Figueirense/SC semi-final Otimo Bom false
+113 Cruzeiro/MG Gremio/RS semi-final Otimo Bom true
+114 Cruzeiro/MG Santos/SP semi-final Otimo Bom false
+115 Figueirense/SC Fluminense/RJ final Bom Otimo false
+116 Figueirense/SC Nautico/PE final Bom Bom true
+117 Figueirense/SC Santos/SP final Bom Bom true
+118 Figueirense/SC Vasco/RJ final Bom Bom false
+119 Figueirense/SC Atletico/PR inicio Ruim Fantastico false
+120 Figueirense/SC Flamengo/RJ inicio Otimo Otimo true
+121 Figueirense/SC Goias/GO inicio Bom Ruim true
+122 Figueirense/SC America/RN meio Bom Regular true
+123 Figueirense/SC Botafogo/RJ meio Bom Fantastico false
+124 Figueirense/SC Gremio/RS meio Bom Otimo true
+125 Figueirense/SC Palmeiras/SP meio Bom Fantastico false
+126 Figueirense/SC Corinthians/SP semi Bom Bom false
+127 Figueirense/SC Cruzeiro/MG semi Otimo Otimo true
+128 Figueirense/SC SaoPaulo/SP semi Bom Otimo false
+129 Figueirense/SC Sport/PE semi Bom Ruim false
+130 Figueirense/SC Atletico/MG semi-final Bom Bom true
+131 Figueirense/SC Internacional/RS semi-final Bom Bom false
+132 Figueirense/SC Juventude/RS semi-final Bom Ruim true
+133 Figueirense/SC Parana/PR semi-final Bom Bom true
+134 Flamengo/RJ Atletico/PR final Otimo Bom true
+135 Flamengo/RJ Corinthians/SP final Bom Bom true
+136 Flamengo/RJ Gremio/RS final Bom Bom true
+137 Flamengo/RJ Santos/SP final Otimo Bom true
+138 Flamengo/RJ Botafogo/RJ inicio Ruim Fantastico false
+139 Flamengo/RJ Internacional/RS inicio Ruim Regular false
+140 Flamengo/RJ Palmeiras/SP inicio Ruim Fantastico false
+141 Flamengo/RJ Figueirense/SC meio Bom Otimo true
+142 Flamengo/RJ Goias/GO meio Bom Regular true
+143 Flamengo/RJ Juventude/RS meio Bom Ruim true
+144 Flamengo/RJ Sport/PE meio Bom Regular false
+145 Flamengo/RJ America/RN semi Regular Otimo true
+146 Flamengo/RJ Nautico/PE semi Regular Bom true
+147 Flamengo/RJ Parana/PR semi Ruim Fantastico false
+148 Flamengo/RJ Atletico/MG semi-final Bom Bom true
+149 Flamengo/RJ Cruzeiro/MG semi-final Bom Otimo true
+150 Flamengo/RJ Fluminense/RJ semi-final Bom Otimo false
+151 Flamengo/RJ SaoPaulo/SP semi-final Bom Fantastico true
+152 Flamengo/RJ Vasco/RJ semi-final Bom Bom false
+153 Fluminense/RJ Atletico/MG final Regular Bom false
+154 Fluminense/RJ Juventude/RS final Bom Regular true
+155 Fluminense/RJ Nautico/PE final Regular Bom true
+156 Fluminense/RJ SaoPaulo/SP final Regular Fantastico false
+157 Fluminense/RJ Cruzeiro/MG inicio Ruim Fantastico false
+158 Fluminense/RJ Internacional/RS inicio Bom Ruim true
+159 Fluminense/RJ Sport/PE inicio Otimo Ruim true
+160 Fluminense/RJ Flamengo/RJ meio Regular Otimo false
+161 Fluminense/RJ Gremio/RS meio Regular Bom false
+162 Fluminense/RJ Palmeiras/SP meio Regular Fantastico false
+163 Fluminense/RJ Santos/SP meio Bom Bom true
+164 Fluminense/RJ Vasco/RJ meio Regular Bom false
+165 Fluminense/RJ Botafogo/RJ semi Bom Fantastico false
+166 Fluminense/RJ Figueirense/SC semi Bom Bom false
+167 Fluminense/RJ Goias/GO semi Bom Bom true
+168 Fluminense/RJ Parana/PR semi Bom Fantastico false
+169 Fluminense/RJ America/RN semi-final Bom Regular true
+170 Fluminense/RJ Atletico/PR semi-final Regular Bom true
+171 Fluminense/RJ Corinthians/SP semi-final Bom Bom false
+172 Goias/GO Corinthians/SP final Bom Bom false
+173 Goias/GO Fluminense/RJ final Bom Otimo true
+174 Goias/GO Internacional/RS final Bom Bom true
+175 Goias/GO Vasco/RJ final Bom Bom false
+176 Goias/GO Flamengo/RJ inicio Ruim Fantastico false
+177 Goias/GO Juventude/RS inicio Bom Ruim true
+178 Goias/GO Palmeiras/SP inicio Otimo Otimo true
+179 Goias/GO Atletico/MG meio Otimo Bom true
+180 Goias/GO Parana/PR meio Otimo Otimo true
+181 Goias/GO SaoPaulo/SP meio Otimo Fantastico false
+182 Goias/GO Botafogo/RJ semi Bom Fantastico false
+183 Goias/GO Gremio/RS semi Bom Otimo false
+184 Goias/GO Santos/SP semi Bom Bom true
+185 Goias/GO Sport/PE semi Otimo Ruim true
+186 Goias/GO America/RN semi-final Bom Regular false
+187 Goias/GO Atletico/PR semi-final Bom Bom false
+188 Goias/GO Cruzeiro/MG semi-final Bom Otimo false
+189 Goias/GO Figueirense/SC semi-final Otimo Bom true
+190 Goias/GO Nautico/PE semi-final Bom Bom false
+191 Gremio/RS Corinthians/SP final Otimo Bom false
+192 Gremio/RS Figueirense/SC final Otimo Bom false
+193 Gremio/RS Goias/GO final Otimo Regular true
+194 Gremio/RS Nautico/PE final Otimo Bom true
+195 Gremio/RS Cruzeiro/MG inicio Otimo Fantastico false
+196 Gremio/RS Fluminense/RJ inicio Fantastico Ruim true
+197 Gremio/RS Sport/PE inicio Fantastico Ruim true
+198 Gremio/RS America/RN meio Bom Regular true
+199 Gremio/RS Parana/PR meio Otimo Otimo true
+200 Gremio/RS SaoPaulo/SP meio Bom Fantastico false
+201 Gremio/RS Atletico/PR semi Bom Otimo false
+202 Gremio/RS Flamengo/RJ semi Fantastico Fantastico true
+203 Gremio/RS Juventude/RS semi Otimo Regular true
+204 Gremio/RS Palmeiras/SP semi Otimo Fantastico false
+205 Gremio/RS Atletico/MG semi-final Otimo Bom false
+206 Gremio/RS Botafogo/RJ semi-final Otimo Fantastico true
+207 Gremio/RS Internacional/RS semi-final Otimo Bom true
+208 Gremio/RS Santos/SP semi-final Otimo Regular true
+209 Gremio/RS Vasco/RJ semi-final Otimo Bom true
+210 Internacional/RS Cruzeiro/MG final Otimo Otimo true
+211 Internacional/RS Juventude/RS final Otimo Ruim true
+212 Internacional/RS Palmeiras/SP final Otimo Otimo true
+213 Internacional/RS Sport/PE final Bom Regular false
+214 Internacional/RS Botafogo/RJ inicio Ruim Fantastico false
+215 Internacional/RS Gremio/RS inicio Bom Regular false
+216 Internacional/RS Nautico/PE inicio Bom Ruim true
+217 Internacional/RS Santos/SP inicio Otimo Regular true
+218 Internacional/RS Atletico/PR meio Otimo Bom true
+219 Internacional/RS Fluminense/RJ meio Bom Otimo false
+220 Internacional/RS Goias/GO meio Otimo Regular true
+221 Internacional/RS Atletico/MG semi Bom Otimo false
+222 Internacional/RS Corinthians/SP semi Bom Bom true
+223 Internacional/RS Figueirense/SC semi Bom Regular true
+224 Internacional/RS Parana/PR semi Otimo Otimo true
+225 Internacional/RS Vasco/RJ semi Bom Regular false
+226 Internacional/RS America/RN semi-final Otimo Regular true
+227 Internacional/RS Flamengo/RJ semi-final Otimo Bom true
+228 Internacional/RS SaoPaulo/SP semi-final Bom Fantastico false
+229 Juventude/RS Atletico/PR final Regular Bom false
+230 Juventude/RS Botafogo/RJ final Regular Otimo false
+231 Juventude/RS SaoPaulo/SP final Regular Fantastico true
+232 Juventude/RS Sport/PE final Regular Regular true
+233 Juventude/RS America/RN inicio Bom Bom true
+234 Juventude/RS Figueirense/SC inicio Regular Bom false
+235 Juventude/RS Parana/PR inicio Ruim Fantastico false
+236 Juventude/RS Santos/SP inicio Regular Otimo false
+237 Juventude/RS Atletico/MG meio Regular Bom false
+238 Juventude/RS Corinthians/SP meio Regular Otimo false
+239 Juventude/RS Fluminense/RJ meio Regular Otimo false
+240 Juventude/RS Goias/GO meio Regular Regular false
+241 Juventude/RS Internacional/RS semi Bom Regular true
+242 Juventude/RS Nautico/PE semi Regular Regular false
+243 Juventude/RS Palmeiras/SP semi Regular Otimo false
+244 Juventude/RS Vasco/RJ semi Bom Bom true
+245 Juventude/RS Cruzeiro/MG semi-final Regular Otimo true
+246 Juventude/RS Flamengo/RJ semi-final Regular Bom false
+247 Juventude/RS Gremio/RS semi-final Regular Bom false
+248 Nautico/PE America/RN final Bom Regular true
+249 Nautico/PE Corinthians/SP final Bom Bom true
+250 Nautico/PE Flamengo/RJ final Bom Bom true
+251 Nautico/PE Santos/SP final Bom Bom false
+252 Nautico/PE Goias/GO inicio Regular Bom false
+253 Nautico/PE Parana/PR inicio Regular Fantastico false
+254 Nautico/PE SaoPaulo/SP inicio Fantastico Ruim true
+255 Nautico/PE Vasco/RJ inicio Bom Fantastico false
+256 Nautico/PE Atletico/MG meio Regular Otimo false
+257 Nautico/PE Figueirense/SC meio Regular Bom true
+258 Nautico/PE Cruzeiro/MG semi Ruim Otimo false
+259 Nautico/PE Fluminense/RJ semi Ruim Otimo false
+260 Nautico/PE Gremio/RS semi Ruim Otimo false
+261 Nautico/PE Palmeiras/SP semi Regular Fantastico false
+262 Nautico/PE Atletico/PR semi-final Regular Bom true
+263 Nautico/PE Botafogo/RJ semi-final Regular Otimo true
+264 Nautico/PE Internacional/RS semi-final Ruim Bom false
+265 Nautico/PE Juventude/RS semi-final Bom Regular true
+266 Nautico/PE Sport/PE semi-final Regular Regular true
+267 Palmeiras/SP Atletico/MG final Bom Bom false
+268 Palmeiras/SP Fluminense/RJ final Bom Otimo true
+269 Palmeiras/SP Juventude/RS final Bom Regular false
+270 Palmeiras/SP Parana/PR final Bom Regular true
+271 Palmeiras/SP Atletico/PR inicio Regular Otimo false
+272 Palmeiras/SP Botafogo/RJ inicio Regular Fantastico false
+273 Palmeiras/SP Cruzeiro/MG inicio Bom Fantastico false
+274 Palmeiras/SP Figueirense/SC inicio Fantastico Ruim true
+275 Palmeiras/SP Flamengo/RJ meio Bom Otimo true
+276 Palmeiras/SP Internacional/RS meio Bom Bom false
+277 Palmeiras/SP SaoPaulo/SP meio Regular Fantastico false
+278 Palmeiras/SP Sport/PE meio Regular Regular false
+279 Palmeiras/SP America/RN semi Bom Bom true
+280 Palmeiras/SP Santos/SP semi Regular Bom false
+281 Palmeiras/SP Vasco/RJ semi Bom Regular true
+282 Palmeiras/SP Corinthians/SP semi-final Bom Bom true
+283 Palmeiras/SP Goias/GO semi-final Bom Regular true
+284 Palmeiras/SP Gremio/RS semi-final Bom Bom true
+285 Palmeiras/SP Nautico/PE semi-final Bom Bom true
+286 Parana/PR Goias/GO final Bom Regular true
+287 Parana/PR Internacional/RS final Bom Bom true
+288 Parana/PR Santos/SP final Bom Bom false
+289 Parana/PR Gremio/RS inicio Fantastico Ruim true
+290 Parana/PR SaoPaulo/SP inicio Bom Bom false
+291 Parana/PR Sport/PE inicio Otimo Ruim true
+292 Parana/PR Botafogo/RJ meio Regular Otimo false
+293 Parana/PR Cruzeiro/MG meio Regular Otimo false
+294 Parana/PR Juventude/RS meio Regular Ruim true
+295 Parana/PR Vasco/RJ meio Regular Bom false
+296 Parana/PR America/RN semi Bom Otimo false
+297 Parana/PR Atletico/MG semi Regular Bom false
+298 Parana/PR Atletico/PR semi Bom Fantastico false
+299 Parana/PR Figueirense/SC semi Regular Bom false
+300 Parana/PR Palmeiras/SP semi Bom Otimo true
+301 Parana/PR Corinthians/SP semi-final Regular Bom true
+302 Parana/PR Flamengo/RJ semi-final Regular Bom false
+303 Parana/PR Fluminense/RJ semi-final Bom Otimo true
+304 Parana/PR Nautico/PE semi-final Regular Bom false
+305 Santos/SP Atletico/MG final Otimo Bom false
+306 Santos/SP Fluminense/RJ final Bom Otimo false
+307 Santos/SP Goias/GO final Otimo Regular true
+308 Santos/SP Palmeiras/SP final Otimo Otimo false
+309 Santos/SP America/RN inicio Ruim Fantastico false
+310 Santos/SP Corinthians/SP inicio Ruim Fantastico false
+311 Santos/SP SaoPaulo/SP inicio Ruim Otimo false
+312 Santos/SP Atletico/PR meio Bom Bom true
+313 Santos/SP Parana/PR meio Bom Otimo true
+314 Santos/SP Sport/PE meio Bom Ruim true
+315 Santos/SP Botafogo/RJ semi Regular Fantastico true
+316 Santos/SP Cruzeiro/MG semi Regular Otimo true
+317 Santos/SP Figueirense/SC semi Bom Regular true
+318 Santos/SP Flamengo/RJ semi Bom Otimo true
+319 Santos/SP Gremio/RS semi Ruim Bom false
+320 Santos/SP Nautico/PE semi Bom Bom false
+321 Santos/SP Internacional/RS semi-final Otimo Bom true
+322 Santos/SP Juventude/RS semi-final Otimo Ruim true
+323 Santos/SP Vasco/RJ semi-final Otimo Bom true
+324 SaoPaulo/SP America/RN final Otimo Regular true
+325 SaoPaulo/SP Botafogo/RJ final Otimo Otimo false
+326 SaoPaulo/SP Cruzeiro/MG final Otimo Otimo true
+327 SaoPaulo/SP Gremio/RS final Otimo Regular true
+328 SaoPaulo/SP Atletico/MG inicio Regular Otimo false
+329 SaoPaulo/SP Goias/GO inicio Fantastico Ruim true
+330 SaoPaulo/SP Palmeiras/SP inicio Bom Fantastico false
+331 SaoPaulo/SP Vasco/RJ inicio Bom Bom true
+332 SaoPaulo/SP Atletico/PR meio Otimo Bom true
+333 SaoPaulo/SP Nautico/PE meio Otimo Bom true
+334 SaoPaulo/SP Flamengo/RJ semi Bom Fantastico false
+335 SaoPaulo/SP Fluminense/RJ semi Bom Otimo false
+336 SaoPaulo/SP Internacional/RS semi Bom Ruim true
+337 SaoPaulo/SP Juventude/RS semi Bom Ruim true
+338 SaoPaulo/SP Sport/PE semi Bom Ruim true
+339 SaoPaulo/SP Corinthians/SP semi-final Otimo Otimo false
+340 SaoPaulo/SP Figueirense/SC semi-final Otimo Bom true
+341 SaoPaulo/SP Parana/PR semi-final Otimo Bom true
+342 SaoPaulo/SP Santos/SP semi-final Otimo Regular true
+343 Sport/PE Cruzeiro/MG final Bom Bom true
+344 Sport/PE Figueirense/SC final Bom Bom false
+345 Sport/PE Palmeiras/SP final Bom Otimo true
+346 Sport/PE SaoPaulo/SP final Bom Fantastico false
+347 Sport/PE America/RN inicio Regular Otimo false
+348 Sport/PE Flamengo/RJ inicio Bom Fantastico false
+349 Sport/PE Santos/SP inicio Fantastico Ruim true
+350 Sport/PE Atletico/PR meio Bom Bom true
+351 Sport/PE Gremio/RS meio Bom Bom true
+352 Sport/PE Juventude/RS meio Otimo Ruim true
+353 Sport/PE Vasco/RJ meio Bom Bom false
+354 Sport/PE Atletico/MG semi Otimo Bom true
+355 Sport/PE Botafogo/RJ semi Bom Fantastico false
+356 Sport/PE Corinthians/SP semi Bom Otimo true
+357 Sport/PE Internacional/RS semi Bom Regular false
+358 Sport/PE Nautico/PE semi Otimo Ruim true
+359 Sport/PE Fluminense/RJ semi-final Bom Otimo false
+360 Sport/PE Goias/GO semi-final Otimo Regular true
+361 Sport/PE Parana/PR semi-final Bom Bom true
+362 Vasco/RJ Flamengo/RJ final Otimo Otimo false
+363 Vasco/RJ Internacional/RS final Bom Bom false
+364 Vasco/RJ Palmeiras/SP final Bom Otimo false
+365 Vasco/RJ Parana/PR final Bom Regular true
+366 Vasco/RJ Fluminense/RJ inicio Bom Bom false
+367 Vasco/RJ Gremio/RS inicio Otimo Ruim true
+368 Vasco/RJ Sport/PE inicio Fantastico Ruim true
+369 Vasco/RJ America/RN meio Fantastico Regular true
+370 Vasco/RJ Corinthians/SP meio Otimo Bom true
+371 Vasco/RJ Figueirense/SC meio Otimo Otimo false
+372 Vasco/RJ Nautico/PE meio Fantastico Bom true
+373 Vasco/RJ Atletico/MG semi Fantastico Bom true
+374 Vasco/RJ Atletico/PR semi Fantastico Fantastico true
+375 Vasco/RJ Goias/GO semi Fantastico Bom true
+376 Vasco/RJ Santos/SP semi Otimo Bom true
+377 Vasco/RJ Botafogo/RJ semi-final Otimo Otimo true
+378 Vasco/RJ Cruzeiro/MG semi-final Otimo Otimo false
+379 Vasco/RJ Juventude/RS semi-final Otimo Regular false
+380 Vasco/RJ SaoPaulo/SP semi-final Otimo Fantastico false
