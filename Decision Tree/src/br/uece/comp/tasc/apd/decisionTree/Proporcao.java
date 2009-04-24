@@ -1,3 +1,4 @@
+package br.uece.comp.tasc.apd.decisionTree;
 /**
  * Proporção: Utilizado no calculo da entropia
  * 
