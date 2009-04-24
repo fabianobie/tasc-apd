@@ -1,3 +1,4 @@
+package br.uece.comp.tasc.apd.decisionTree;
 /**
  * Classe Util: utilizada para calculos matematicos auxilares na geração da
  * arvore de decisao:

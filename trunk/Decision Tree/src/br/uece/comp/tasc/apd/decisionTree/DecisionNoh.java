@@ -1,3 +1,4 @@
+package br.uece.comp.tasc.apd.decisionTree;
 /**
  * 
  * @author Fabiano Um noh da Arvore de decisao
